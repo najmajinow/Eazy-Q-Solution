@@ -1,0 +1,172 @@
+/* General styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #e0e0e0; /* Light gray background for the entire site */
+    color: #333; /* Default text color */
+    scroll-behavior: smooth;
+}
+
+header {
+    background: #333; /* Dark background for header */
+    color: #fff; /* White text in header */
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff; /* White text for navigation links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header, footer {
+    background-color: #333; /* Dark background for footer */
+    color: white; /* White text in footer */
+    text-align: center;
+    padding: 10px 0;
+}
+
+.main {
+    padding: 20px;
+}
+
+.hero {
+    background: #000; /* Black background for hero section */
+    color: #fff; /* White text in hero section */
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 20px;
+    box-sizing: border-box;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #fff; /* White color for headline */
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+    color: #ccc; /* Light gray color for the text */
+}
+
+section {
+    padding: 60px 20px;
+    box-sizing: border-box;
+}
+
+.about, .services, .contact {
+    background: #fff; /* Light background for content sections */
+    color: #333; /* Dark text for readability */
+    padding: 60px 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ddd; /* Light gray border between sections */
+}
+
+.about h1, .services h1, .contact h1 {
+    color: #333; /* Dark color for section headings */
+}
+
+.service-item {
+    margin-bottom: 20px;
+}
+
+.service-item img {
+    width: 100%; /* Adjust the width as needed */
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.service-item h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+.service-item p {
+    font-size: 1em;
+    margin: 0;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form label {
+    margin: 0.5em 0 0.2em;
+}
+
+.contact form input, .contact form textarea {
+    padding: 0.5em;
+    border: 1px solid #ddd; /* Light border */
+    margin-bottom: 1em;
+}
+
+.contact form button {
+    padding: 1em;
+    background: #333; /* Dark button background */
+    color: #fff; /* White text on button */
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.contact form button:hover {
+    background: #555; /* Slightly lighter dark button on hover */
+}
+/* Add styles for slider controls */
+.slider-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.slider-control {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.slider-control.active {
+    background-color: #333;
+}
+
+/* Form input invalid state */
+input.invalid, textarea.invalid {
+    border: 2px solid red;
+}
+
+/* Add styles for animate-on-scroll elements */
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.animate-on-scroll.animated {
+    opacity: 1;
+    transform: translateY(0);
+}
