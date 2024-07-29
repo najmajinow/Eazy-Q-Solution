@@ -1,4 +1,4 @@
-https://raw.githubusercontent.com/najmajinow/Eazy-Q-Solution/main/painting.jpg.jpg
+![painting.jpg.jpg](https://raw.githubusercontent.com/najmajinow/Eazy-Q-Solution/main/painting.jpg.)
 
 
 
