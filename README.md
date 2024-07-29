@@ -1,4 +1,4 @@
-![painting.jpg.jpg](https://raw.githubusercontent.com/najmajinow/Eazy-Q-Solution/main/painting.jpg.jpg)
+<img src="https://raw.githubusercontent.com/najmajinow/Eazy-Q-Solution/main/path/to/painting.jpg.jpg"alt=painting>
 
 
 
