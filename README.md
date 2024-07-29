@@ -1,4 +1,8 @@
-![painting jpg](https://github.com/najmajinow/Eazy-Q-Solution/blob/main/painting.jpg.jpg)
+![painting jpg](https://raw.github.com/najmajinow/Eazy-Q-Solution/blob/main/painting.jpg.jpg)
+
+
+
+
 
 
 
